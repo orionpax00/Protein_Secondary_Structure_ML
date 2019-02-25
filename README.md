@@ -10,6 +10,6 @@ We are developing a machine learning model using Support Vector Machine algorith
  + ***Data Preperation***<br> 
  We need atleast 10 similiar and 10 dissimiliar protein structure to which the similiarity of query should be checked [click here](https://orionpax00.github.io/genrating_positive_negative_data_using_blast.html)<br>
  + ***Running***<br>
- create virtualenv using virtualenv [click here](https://orionpax00.github.io/virtualenv_vs_pyenv.html)
- pip install requirements.txt
+ create virtualenv using virtualenv [click here](https://orionpax00.github.io/virtualenv_vs_pyenv.html)<br>
+ pip install requirements.txt<br>
  python main.py
