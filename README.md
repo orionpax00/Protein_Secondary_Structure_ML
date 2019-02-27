@@ -13,3 +13,5 @@ We are developing a machine learning model using Support Vector Machine algorith
  create virtualenv using virtualenv [click here](https://orionpax00.github.io/virtualenv_vs_pyenv.html)<br>
  pip install requirements.txt<br>
  python main.py
+
+python data_genration.py try.horiz protein1_ss_dataset.fasta
