@@ -36,7 +36,7 @@ with open('svm_secondary_structure.train','w') as svm_sec_str:
             if counter == 0:
                 continue
             elif (counter) % 2 != 0:
-                if lines[counter-1][1:lines[counter-1].index('.')+2] in positive_fasta:
+                if lines[counter-1][1] == '+':
                     sub_string = "+1 "
                 else:
                     sub_string = "-1 "
